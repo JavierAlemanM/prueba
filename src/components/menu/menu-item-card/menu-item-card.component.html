@@ -1,0 +1,16 @@
+<div class="item-card">
+   <div class="item-card-img">
+      <img [src]="dataComponent.img" />
+   </div>
+   <div class="item-card-title">
+      <div class="title">{{ dataComponent.title }}</div>
+      <div class="btn">
+         <ng-icon name="heroChevronRight"></ng-icon>
+      </div>
+   </div>
+   <div class="item-card-list">
+      <div class="list" *ngFor="let option of dataComponent.options">
+         {{ option }}
+      </div>
+   </div>
+</div>

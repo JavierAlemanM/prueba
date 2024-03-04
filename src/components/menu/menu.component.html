@@ -1,0 +1,30 @@
+<div class="menu-component">
+   <div class="menu-body-component">
+      <div class="menu-body-component-btn">
+         <div class="btn-close-menu">
+            <ng-icon name="heroXMark"></ng-icon>
+         </div>
+      </div>
+      <div class="menu-body-component-container">
+         <div class="container-list">
+            <menu-item-card [dataComponent]="jsonPanel01"></menu-item-card>
+            <menu-item-card [dataComponent]="jsonPanel02"></menu-item-card>
+            <menu-item-card [dataComponent]="jsonPanel03"></menu-item-card>
+            <menu-item-card [dataComponent]="jsonPanel04"></menu-item-card>
+         </div>
+      </div>
+   </div>
+   <div class="menu-footer-component">
+      <div class="menu-footer-component-section-l">
+         <div class="section-form">
+            <menu-footer-form></menu-footer-form>
+         </div>
+         <div class="section-social">
+            <menu-footer-social></menu-footer-social>
+         </div>
+      </div>
+      <div class="menu-footer-component-section-r">
+         <menu-footer-directory></menu-footer-directory>
+      </div>
+   </div>
+</div>
