@@ -3,6 +3,10 @@
    padding: 0;
    box-sizing: border-box;
 }
+body{
+   font-family: 'SequelSans';
+   color: var(--color-night);
+}
 :root{
    --color-beige:    #FEF9EC;
    --color-sky:      #C0DEFC;

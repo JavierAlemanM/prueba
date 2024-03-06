@@ -1,0 +1,20 @@
+
+section{
+   padding: 20px;
+}
+section img{
+   width: 100%;
+   border-radius: 12px;
+}
+
+
+////////////////////////
+///   Media Query   ///
+///////////////////////
+@media (min-width: 640px) {
+   section {
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}

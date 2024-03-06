@@ -10,22 +10,22 @@ import { heroXMark } from '@ng-icons/heroicons/outline';
 })
 export class MenuComponent {
 	jsonPanel01: any = {
-		img: "/assets/images/menu-item-01.png",
+		img: "/assets/images/menu-items/menu-item-01.png",
 		title: "¿Quiénes somos?",
 		options: ['El inicio','Propósito']
 	};
 	jsonPanel02: any = {
-		img: "/assets/images/menu-item-02.png",
+		img: "/assets/images/menu-items/menu-item-02.png",
 		title: "¿Por quién hacemos todo?",
 		options: ['¿Jesús?']
 	};
 	jsonPanel03: any = {
-		img: "/assets/images/menu-item-03.png",
+		img: "/assets/images/menu-items/menu-item-03.png",
 		title: "Testimonios",
 		options: ['Testimonios','Nuestros Fundadores']
 	};
 	jsonPanel04: any = {
-		img: "/assets/images/menu-item-04.png",
+		img: "/assets/images/menu-items/menu-item-04.png",
 		title: "Conectate",
 		options: ['Unirme','Preguntas Frecuentes']
 	};
